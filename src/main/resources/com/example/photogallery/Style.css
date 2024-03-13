@@ -1,0 +1,33 @@
+.root {
+    -fx-background-color: #cccccc;
+}
+
+.thumbnail {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0);
+    -fx-alignment: center;
+}
+
+.thumbnail:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 0);
+}
+
+
+.full-size-view {
+    -fx-background-color: lightgray;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-opacity: 100%;
+
+}
+
+.button:hover {
+    -fx-background-color: #05f77a;
+}
